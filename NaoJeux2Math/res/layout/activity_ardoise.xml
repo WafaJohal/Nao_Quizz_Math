@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@drawable/ardoise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gestureColor="#00000000"
+        android:gestureStrokeType="multiple"
+        android:uncertainGestureColor="#00000000" >
+    </android.gesture.GestureOverlayView>
+    
+    <Button
+        android:id="@+id/buttonValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/valider"/>
+
+    <Button
+        android:id="@+id/buttonGomme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/buttonValider"
+        android:background="@drawable/gomme" />
+
+ 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80sp"
+        android:textColor="#FFFFFF"
+        android:textSize="500sp" />
+    
+</RelativeLayout>

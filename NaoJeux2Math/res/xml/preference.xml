@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <EditTextPreference
+	        android:key="@string/pref_robotip"
+	        android:title="@string/pref_robotip"
+	        android:defaultValue="@string/pref_robotip_default" />
+
+ 	<EditTextPreference
+	        android:key="pref_robotport"
+	        android:title="@string/pref_robotport"
+	        android:defaultValue="@string/pref_robotport_default" />
+ 
+
+    <PreferenceScreen
+    	android:key="button_operand_category_key"
+        android:title="@string/pref_operands"
+        android:persistent="false">
+    
+	    <CheckBoxPreference
+	        android:key="pref_addition"
+	        android:title="@string/pref_addition"
+	        android:defaultValue="false" />
+	    <CheckBoxPreference
+	        android:key="pref_soustraction"
+	        android:title="@string/pref_soustraction"
+	        android:defaultValue="false" />
+	    <CheckBoxPreference
+	        android:key="pref_multiplication"
+	        android:title="@string/pref_multiplication"
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="pref_division"
+	        android:title="@string/pref_division"
+	        android:defaultValue="false" />
+    </PreferenceScreen>
+    <ListPreference
+        android:key="pref_syncConnectionType"
+        android:title="@string/pref_syncConnectionType"
+        android:dialogTitle="@string/pref_syncConnectionType"
+        android:entries="@array/pref_difficulte_array"
+        android:entryValues="@array/pref_difficulte_array_values" />
+   _
+</PreferenceScreen>

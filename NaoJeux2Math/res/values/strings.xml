@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nao_quizz_2_math</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textView">hello</string>
+    <string name="editText">test</string>
+    <string name="button1">bouton1</string>
+    <string name="checkBox">check</string>
+    <string name="button2">bouton2</string>
+    <string name="test1">hello</string>
+
+    <array name="liste_couleurs_fr">
+        <item>Bleu</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+    </array>
+    <array name="liste_couleurs">
+        <item>blue</item>
+        <item>red</item>
+        <item>green</item>
+    </array>
+
+    <string name="pref_robotip">Robot IP</string>
+    <string name="pref_robotip_default">192.168.0.101</string>
+    <string name="pref_robotport">Robot Port</string>
+    <string name="pref_robotport_default">9559</string>
+    <string name="pref_operands">Operands</string>
+    <string name="pref_addition">+</string>
+    <string name="pref_soustraction">-</string>
+    <string name="pref_multiplication">*</string>
+    <string name="pref_division">/</string>
+    <string name="pref_syncConnectionType">Difficulté</string>
+    <string name="pref_difficulte_default">1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>
